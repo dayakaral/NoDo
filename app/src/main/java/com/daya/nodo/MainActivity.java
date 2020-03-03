@@ -22,6 +22,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.List;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int NODO_REQUEST_CODE = 1;
     private NoDoRecyclerAdapter noDoRecyclerAdapter;
     private NoDoViewModel noDoViewModel;
+    private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
