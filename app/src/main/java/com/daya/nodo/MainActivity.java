@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     private static final int NODO_REQUEST_CODE = 1;
     private NoDoRecyclerAdapter noDoRecyclerAdapter;
     private NoDoViewModel noDoViewModel;
-    private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
